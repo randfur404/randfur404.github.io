@@ -25,14 +25,13 @@ layout: default
     {{ content }}
     {% include navlinks.html %}
   </div>
-
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-</article>
-
-<script src="https://utteranc.es/client.js"
+  <script src="https://utteranc.es/client.js"
         repo="randfur404.github.io"
         issue-term="title"
         theme="preferred-color-scheme"
         crossorigin="anonymous"
         async>
 </script>
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
